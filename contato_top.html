@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<li><a href="ozzy_tec.html">Home</a></li>
+	<title>Contato</title>
+	<style>
+		/* Estilo para o cabeçalho da página */
+		h1 {
+			font-size: 36px;
+			text-align: center;
+		}
+		
+		/* Estilo para o formulário de contato */
+		form {
+			max-width: 500px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		
+		input, textarea {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+		}
+		
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		
+		button:hover {
+			background-color: #45a049;
+		}
+		
+		/* Estilo para as informações de contato */
+		.contact-info {
+			max-width: 500px;
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Entre em contato conosco</h1>
+	</header>
+	
+	<form>
+		<label for="name">Nome:</label>
+		<input type="text" id="name" name="name" required>
+		
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email" required>
+		
+		<label for="phone">Telefone:</label>
+		<input type="tel" id="phone" name="phone">
+		
+		<label for="message">Mensagem:</label>
+		<textarea id="message" name="message" required></textarea>
+		
+		<button type="submit">Enviar</button>
+	</form>
+	
+	<div class="contact-info">
+		<h2>Informações de contato</h2>
+		<p>Número de telefone: (75)98260-3544</p>
+		<p>E-mail: ozzytecc@gmail.com</p>
+		<p>Endereço:AV José vieira gomes, 86 - Itatim/Bahia</p>
+	</div>
+</body>
+</html>
